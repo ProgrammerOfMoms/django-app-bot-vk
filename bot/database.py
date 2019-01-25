@@ -1,13 +1,12 @@
 import pymysql.cursors
 
 def connect():
-    #try:
         cnx = pymysql.connect(
-            user='a263932_1',
-			password = 'azsxdcfr132',
-            host = 'a263932.mysql.mchost.ru',
-            #port = 3306,
-            db='a263932_1'
+            user='',#enter your user
+			password = '',#enter your password
+            host = '',#enter your host
+            port = 0,#enter port
+            db=''#enter your database
         )
         return cnx
 
